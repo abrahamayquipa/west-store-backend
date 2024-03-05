@@ -5,7 +5,7 @@ import productsRouter from './product.js';
 const app = express();
 
 app.use(cors({
-  origin: 'https://west-store-backend-l3nkcx87b-abrahams-projects-a43793ae.vercel.app'
+  origin: 'http://localhost:3000'
 }));
 
 app.use('/api', productsRouter);
